@@ -1,0 +1,27 @@
+/* About Styles  */
+.user-data {
+  width: 400px;
+  margin-bottom: 40px;
+
+  &__name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+  }
+
+  &__position {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.06;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--grey-text-color);
+    margin-bottom: 40px;
+  }
+}

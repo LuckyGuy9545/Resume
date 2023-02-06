@@ -1,0 +1,11 @@
+@import "./utils/variables";
+@import "./base/body";
+//== main_content
+@import "./components/main_content/main-block";
+@import "./components/main_content/about-user";
+@import "./components/main_content/education";
+@import "./components/main_content/projects";
+@import "./components/main_content/work-exp";
+//== sidebar
+@import "./components/sidebar/sidebar-main";
+@import "./components/sidebar/skills";

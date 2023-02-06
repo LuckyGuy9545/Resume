@@ -1,0 +1,43 @@
+/* Work Exp Styles */
+
+.work-tittle {
+  font-size: 22px;
+  line-height: 1.22;
+  margin-bottom: 10px;
+}
+
+.company__position {
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.company-name {
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--orange-text-color);
+}
+
+.company__dates {
+  font-size: 12px;
+  line-height: 1.25;
+  color: var(--light-grey-text-color);
+  margin: 0;
+}
+
+.slash {
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work-list__item {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--grey-text-color);
+}

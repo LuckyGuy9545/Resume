@@ -1,0 +1,58 @@
+/* Project Styles */
+
+.project {
+  margin-bottom: 50px;
+
+  &-tittle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.22;
+    margin-bottom: 10px;
+  }
+}
+
+.project-table {
+  padding: 0;
+  margin-left: 15px;
+
+  &__body {
+    text-align: left;
+    counter-reset: step;
+    position: relative;
+  }
+
+  &__item-name {
+    width: 240px;
+
+    &::before {
+      counter-increment: step;
+      content: counter(step, decimal);
+      color: var(--orange-text-color);
+    }
+  }
+
+  &__item-name,
+  &__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--grey-text-color);
+  }
+
+  &__link {
+    margin-left: 10px;
+    transition: color 0.5s;
+
+    &:hover,
+    &:focus {
+      color: var(--orange-text-color);
+      transition: color 0.5s;
+    }
+  }
+
+  &__item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}

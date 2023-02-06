@@ -1,0 +1,59 @@
+/* Sidebar Styles */
+.sidebar {
+  &__item {
+    list-style-type: none;
+  }
+
+  &__link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--main-block-back-white);
+    transition: transform 0.5s, color 0.5s, fill 0.5s;
+    transform: scale(1);
+    fill: var(--orange-text-color);
+
+    &:hover,
+    &:focus {
+      fill: var(--main-block-back-white);
+      color: var(--orange-text-color);
+      transition: transform 0.5s, color 0.5s, fill 0.5s;
+      transform: scale(1.1);
+    }
+  }
+
+  &__wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--sidebar-background-color);
+    width: auto;
+    height: auto;
+    color: var(--main-block-back-white);
+    padding-top: 40px;
+    margin: 40px 0px 40px 40px;
+  }
+
+  &__photo {
+    margin-bottom: 50px;
+    width: 350px;
+    height: 400px;
+    object-fit: contain;
+  }
+
+  &__tittle {
+    color: var(--main-block-back-white);
+    font-size: 22px;
+    line-height: 1.22;
+    margin-bottom: 10px;
+  }
+}
+
+.sidebar-contacts,
+.tech-skills__wraper,
+.soft-skills__wraper {
+  width: 300px;
+}

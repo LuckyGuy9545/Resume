@@ -1,0 +1,16 @@
+.sidebar__list,
+.tech-skills__list,
+.soft-skills__list {
+  padding: 0;
+  margin-left: 18px;
+}
+.tech-skills__list-dots {
+  color: var(--orange-text-color);
+}
+
+.tech-skills__list-text,
+.soft-skills__list-text {
+  color: var(--main-block-back-white);
+  font-size: 14px;
+  line-height: 1.7;
+}
