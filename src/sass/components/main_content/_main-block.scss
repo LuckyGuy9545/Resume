@@ -6,14 +6,14 @@
   height: auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
+
+  &__content {
+    background-color: var(--main-block-back-white);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 80px 40px;
+    margin: 40px 40px 40px 0px;
+    max-width: 650px;
+  }
 }
 
 /* Main Content Styles */
-
-.main-block__content {
-  background-color: var(--main-block-back-white);
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 105px 90px;
-  margin: 40px 40px 40px 0px;
-  width: auto;
-}
