@@ -14,6 +14,16 @@ body {
   padding: 0;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
 /* Main Styles */
 .main-block {
   display: flex;
@@ -138,10 +148,9 @@ body {
   vertical-align: top;
 }
 .project-table__list-tittle {
+  list-style: none;
   font-size: 16px;
   font-weight: 700;
-  padding: 0;
-  margin: 0;
   color: var(--orange-text-color);
 }
 .project-table__techs {
