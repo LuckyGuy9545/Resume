@@ -1,5 +1,9 @@
 /* Education */
 .education-tittle {
+  background-color: var(--sidebar-background-color);
+  color: var(--main-block-back-white);
+  border-radius: 20px;
+  padding: 10px 0 10px 10px;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
@@ -25,4 +29,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
+}
+
+.education-wrapper {
+  padding-left: 20px;
 }

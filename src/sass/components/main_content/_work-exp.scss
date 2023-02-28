@@ -1,12 +1,17 @@
 /* Work Exp Styles */
 
 .work-tittle {
+  background-color: var(--sidebar-background-color);
+  color: var(--main-block-back-white);
+  border-radius: 20px;
+  padding: 10px 0 10px 10px;
   font-size: 22px;
   line-height: 1.22;
   margin-bottom: 10px;
 }
 
 .company__position {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 10px;
@@ -20,6 +25,7 @@
 }
 
 .company__dates {
+  list-style-type: none;
   font-size: 12px;
   line-height: 1.25;
   color: var(--light-grey-text-color);
@@ -29,4 +35,7 @@
 .slash {
   font-size: 12px;
   line-height: 1.25;
+}
+.company-wrapper {
+  padding-left: 20px;
 }

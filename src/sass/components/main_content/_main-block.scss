@@ -2,9 +2,10 @@
 .main-block {
   display: flex;
   flex-direction: row-reverse;
-  width: fit-content;
-  height: auto;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  width: 1240px;
+  min-height: 1754px;
+  // box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
 
   &__content {
@@ -12,7 +13,7 @@
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     padding: 80px 40px;
     margin: 40px 40px 40px 0px;
-    max-width: 650px;
+    width: 750px;
   }
 }
 
